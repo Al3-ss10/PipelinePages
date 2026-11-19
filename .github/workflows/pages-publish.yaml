@@ -20,3 +20,5 @@ jobs:
         with:
           path: .
       - uses: actions/deploy-pages@v4
+
+#Github -> Settings -> Pages -> Branch (da None a master)
