@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   deploy: #Github crea la VM, clona la repo e crea il sito
-    runs-on: ubuntu-lateste
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
     steps:
